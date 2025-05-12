@@ -3,7 +3,7 @@ import {assets} from '../assets/assets'
 const Navbar = ({setToken}) => {
   return (
     <div className='flex justify-between items-center py-2 px-[4%]'>
-        <img className='w-[max(10%, 80px)] h-15' src={assets.logo} alt="" />
+        <img className='w-[max(10%, 80px)] h-13' src={assets.logo} alt="" />
         <button onClick={()=>setToken('')} className='bg-gray-600 cursor-pointer text-white px-5 sm:px-7 sm:py-2 rounded-full text-xs sm:text-sm'>Logout</button>
     </div>
   )
